@@ -1,0 +1,46 @@
+{
+  "name": "kugel-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pliffer/kugel-example.git"
+  },
+  "kugel": {
+    "modules": {
+      "core": [
+        "kugel-better-express",
+        "kugel-server"
+      ],
+      "start": []
+    },
+    "config": {
+      "gzip": false,
+      "morgan": "dev",
+      "cors": false,
+      "upload": false,
+      "template_engine": "pug",
+      "body_parser": true,
+      "openapi": false,
+      "modules": true,
+      "state": "development"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pliffer/kugel-example/issues"
+  },
+  "homepage": "https://github.com/pliffer/kugel-example#readme",
+  "dependencies": {
+    "kugel": "github:pliffer/kugel",
+    "kugel-better-express": "github:pliffer/kugel-better-express",
+    "kugel-server": "github:pliffer/kugel-server",
+    "pug": "^3.0.2"
+  }
+}
