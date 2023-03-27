@@ -1,8 +1,8 @@
-let kugel =  require('kugel');
+const kugel =  require('kugel');
 
 kugel.init().then(() => {
 
-	let betterExpress =  require('kugel-better-express');
+	const betterExpress =  require('kugel-better-express');
 
 	betterExpress.router(router  => {
 
