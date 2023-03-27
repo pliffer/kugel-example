@@ -1,12 +1,12 @@
-const kugel =  require('kugel');
+const kugel = require('kugel');
 
 kugel.init().then(() => {
 
-	const betterExpress =  require('kugel-better-express');
+	const betterExpress = require('kugel-better-express');
 
-	betterExpress.router(router  => {
+	betterExpress.router(router => {
 
-		router.get('/', () =>  'Hello World!');
+		router.get('/', () => 'Hello World!');
 
 	});
 
