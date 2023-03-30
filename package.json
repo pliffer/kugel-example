@@ -16,13 +16,6 @@
         "kugel-better-express",
         "kugel-jwt",
         "kugel-server"
-      ],
-      "default": [
-        "automath-frontend",
-        "automath-hands"
-      ],
-      "routes": [
-          "automath-backend"
       ]
     },
     "config": {
