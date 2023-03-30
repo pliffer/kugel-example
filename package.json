@@ -14,9 +14,16 @@
     "modules": {
       "core": [
         "kugel-better-express",
+        "kugel-jwt",
         "kugel-server"
       ],
-      "start": []
+      "default": [
+        "automath-frontend",
+        "automath-hands"
+      ],
+      "routes": [
+          "automath-backend"
+      ]
     },
     "config": {
       "gzip": false,
