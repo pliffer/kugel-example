@@ -6,7 +6,10 @@ kugel.init().then(() => {
 
 	betterExpress.router(router => {
 
-		router.get('/', () => 'Hello World!');
+		router.get('/', () => `
+			<p>Ola</p>
+			<p>Visite <a href="https://github.com/pliffer/kugel-jwt">o repositorio</a> para mais informacoes.</p>
+		`);
 
 	});
 

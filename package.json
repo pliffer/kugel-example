@@ -14,7 +14,6 @@
     "modules": {
       "core": [
         "kugel-better-express",
-        "kugel-jwt",
         "kugel-server"
       ]
     },
